@@ -1,0 +1,38 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: hsl(218, 23%, 16%);
+    color: hwb(193 81% 9%);
+    font-weight: 400;
+}
+
+.bg-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#advice-id{
+    color: hsl(150, 100%, 66%);
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+
+.advice-card {
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 540px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
