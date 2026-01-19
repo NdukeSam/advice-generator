@@ -12,14 +12,6 @@ body {
     height: 100vh;
 }
 
-#advice-id{
-    color: hsl(150, 100%, 66%);
-    font-size: 14px;
-    letter-spacing: 2px;
-    margin-bottom: 20px;
-}
-
-
 .advice-card {
     background-color: hsl(217, 19%, 24%);
     border-radius: 15px;
@@ -27,10 +19,54 @@ body {
     max-width: 540px;
     margin: 50px auto;
     text-align: center;
+    position: relative;
 }
 
+#advice-id {
+    color: hsl(150, 100%, 66%);
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
 
+#advice-text {
+    font-size: 28px;
+    margin-bottom: 20px;
+    line-height: 1.4;
+    font-weight: bold;
+}
 
+.divider-desktop {
+    width: 100%;
+    height: 16px;
+    background-image: url('./images/pattern-divider-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px 0;
+    padding: 30px 0;
+}
+
+#generate-advice {
+    background-color: hsl(150, 100%, 66%);
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    cursor: pointer;
+    /* box-shadow: 0px 0px 20px hsl(150, 100%, 66%); */
+    margin-top: 30px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    position: absolute;
+}
+
+#generate-advice:hover, #generate-advice:active {
+    box-shadow: 0px 0px 30px hsl(150, 100%, 76%);
+    outline: none;
+}
 
 .attribution {
     font-size: 11px;
